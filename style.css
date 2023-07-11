@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+html {
+    scroll-behavior: smooth;
+}
+.start {
+    background-color: rgb(119, 115, 115);
+}
+.main {
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    
+}
+.ttut {
+    color: rgba(229, 9, 20, 1);
+}
+.clip {
+    
+    letter-spacing: -1px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.scaleN {
+    transform: scaleY(5);
+}
+/* @media screen and (min-height: 300px) and (max-height: 1200px){
+    .wid {
+        height: 1000px;
+    }
+} */
+@tailwind utilities; 
